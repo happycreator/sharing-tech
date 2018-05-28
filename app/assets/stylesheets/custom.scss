@@ -27,6 +27,7 @@ textarea {
 
 .center {
   text-align: center;
+  background-color: Transparent;
   h1 {
     margin-bottom: 10px;
   }
@@ -75,6 +76,11 @@ p {
     color: white;
     text-decoration: none;
   }
+}
+
+.search-nav {
+  width: 200px;
+  padding-top: 9px;
 }
 
 /* footer */
@@ -296,3 +302,4 @@ span.picture {
     border: 0;
   }
 }
+
