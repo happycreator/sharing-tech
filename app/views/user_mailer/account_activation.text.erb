@@ -1,5 +1,5 @@
-Hi <%= @user.name %>,
+ようこそ <%= @user.name %>、 SHARING TECHへ! 
 
-ようこそSHARING TECHへ! 下記のリンクをクリックして、あなたのアカウントを有効化してください。
+下記リンクをクリックして、アカウントを有効化してください。
 
 <%= edit_account_activation_url(@user.activation_token, email: @user.email) %>
