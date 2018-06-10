@@ -1,25 +1,25 @@
 <% provide(:title, "Log in") %>
-<h1>ログイン</h1>
+<h1>ログインフォーム</h1>
 
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
     <%= form_for(:session, url: login_path) do |f| %>
 
-      <%= f.label :email %>
+      <%= f.label :email, "メールアドレス" %>
       <%= f.email_field :email, class: 'form-control' %>
 
-      <%= f.label :password %>
-      <%= link_to "(forgot password)", new_password_reset_path %>
+      <%= f.label :password, "パスワード" %>
+      <%= link_to "(パスワードを忘れてしまった)", new_password_reset_path %>
       <%= f.password_field :password, class: 'form-control' %>
 
       <%= f.label :remember_me, class: "checkbox inline" do %>
         <%= f.check_box :remember_me %>
-        <span>Remember me on this computer</span>
+        <span>このコンピューターにログイン情報を記憶させる</span>
       <% end %>
 
-      <%= f.submit "Log in", class: "btn btn-primary" %>
+      <%= f.submit "ログイン", class: "btn btn-primary" %>
     <% end %>
 
-    <p>新規登録するには<%= link_to "アカウントの登録", signup_path %>へ</p>
+    <p>新規登録するには<%= link_to "アカウントの作成", signup_path %>へ</p>
   </div>
 </div>

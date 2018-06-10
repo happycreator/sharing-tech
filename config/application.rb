@@ -13,3 +13,4 @@ module SampleApp
     # -- all .rb files in that directory are automatically loaded.
   end
 end
+
