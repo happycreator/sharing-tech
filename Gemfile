@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#日本語化
+gem 'rails-i18n'
+
 gem 'rails',        '5.0.3'
 gem 'bootstrap-sass', '3.3.7'
 gem 'bcrypt',         '3.1.11'
