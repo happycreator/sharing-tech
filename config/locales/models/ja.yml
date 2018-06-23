@@ -1,9 +1,11 @@
 ja:
   activerecord:
     models:
-      user: イベント
+      user: 
     attributes:
       user:
         name: 名前
         email: メールアドレス
         password: パスワード
+
+
