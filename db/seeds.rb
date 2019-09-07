@@ -7,11 +7,11 @@ User.create(name:  "ユーザー1",
   activated_at: Time.zone.now)
 
 User.create(name:  "ユーザー2",
-email: "user2@example.com",
-password:              "pw",
-password_confirmation: "pw",
-activated: true,
-activated_at: Time.zone.now)
+  email: "user2@example.com",
+  password:              "pw",
+  password_confirmation: "pw",
+  activated: true,
+  activated_at: Time.zone.now)
 
 User.create(name:  "管理者1",
   email: "admin1@example.com",
